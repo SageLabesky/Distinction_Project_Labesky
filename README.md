@@ -1,5 +1,5 @@
 # Distinction_Project_Labesky
-Developing an embedded device which will allow the user to take photos and transcribe those photos into text descriptions using an AI image analysis tool
+This project will produce an embedded device with the capability of serving as a way to recieve immediate, on the fly audio descriptions of the visual environment around the user. It will be able to take photographs on random intervals or when specified by the user. The images and text descriptions will be stored in a database on another device and can be viewed by the user. This is intended to serve the purpose of both helping a user understand the environment around them and creating an interesting visual journal that takes minimal effort but can provide interesting points of reflection.
 
 ## Overall functionality Requirements:
 1. User will be able to turn the device on and off easily
@@ -12,3 +12,10 @@ Developing an embedded device which will allow the user to take photos and trans
 8. Brain should store the photographs along with the descriptions
 9. Brain should generate audio descriptions which it will send to the embedded device
 
+## Required Physical Components:
+1. Arduino chip (WIFI or Bluetooth capable)
+2. Small camera (should be connectable to breadboard and compatible with Arduino chip)
+3. Audio ouptut device (should be connectable to breadboard and compatible with arduino chip)
+4. Button (should be connectable to breadboard and compatible with arduino chip)
+5. Wires (should be connectable to breadboard)
+6. Breadboard
