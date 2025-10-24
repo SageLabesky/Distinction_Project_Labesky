@@ -25,3 +25,9 @@ This project will produce an embedded device with the capability of serving as a
    - https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTHR2RL/ref=pd_lpo_d_sccl_2/133-7567229-1303851?pd_rd_w=72LQl&content-id=amzn1.sym.4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_p=4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_r=PZVVFN4XG1KSBJYMNNW4&pd_rd_wg=nYXit&pd_rd_r=d95502be-d935-4f9c-85e9-61638aa3d545&pd_rd_i=B0BRTHR2RL&th=1
 9. Breadboard
     - https://www.digikey.com/en/products/detail/universal-solder-electronics-ltd/26058/16819785?gclsrc=aw.ds&gad_source=4&gad_campaignid=20232005509&gbraid=0AAAAADrbLljdSOYlhjxqqn0XzTN55z8qx&gclid=CjwKCAjw7_DEBhAeEiwAWKiCC4gdDU9Xznk2BkFAjjeIc9Da9L0qsVdd5jKPt5G4CrxLmlQv0vDXlhoC-lgQAvD_BwE
+
+
+Specifications
+pi username: sagelabes
+pi hostname: SagePi
+pi password: DistinctionPi123
