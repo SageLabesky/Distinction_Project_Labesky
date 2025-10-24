@@ -31,3 +31,4 @@ This project will produce an embedded device with the capability of serving as a
 - pi username: sagelabes
 - pi hostname: SagePi
 - pi password: DistinctionPi123
+- to activite the virtual environment type: source python/bin/activate
