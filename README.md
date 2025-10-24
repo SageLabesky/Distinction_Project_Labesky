@@ -27,7 +27,7 @@ This project will produce an embedded device with the capability of serving as a
     - https://www.digikey.com/en/products/detail/universal-solder-electronics-ltd/26058/16819785?gclsrc=aw.ds&gad_source=4&gad_campaignid=20232005509&gbraid=0AAAAADrbLljdSOYlhjxqqn0XzTN55z8qx&gclid=CjwKCAjw7_DEBhAeEiwAWKiCC4gdDU9Xznk2BkFAjjeIc9Da9L0qsVdd5jKPt5G4CrxLmlQv0vDXlhoC-lgQAvD_BwE
 
 
-Specifications
+# Specifications
 pi username: sagelabes
 pi hostname: SagePi
 pi password: DistinctionPi123
