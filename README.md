@@ -28,6 +28,6 @@ This project will produce an embedded device with the capability of serving as a
 
 
 # Specifications
-pi username: sagelabes
-pi hostname: SagePi
-pi password: DistinctionPi123
+- pi username: sagelabes
+- pi hostname: SagePi
+- pi password: DistinctionPi123
