@@ -1,6 +1,35 @@
 # Distinction_Project_Labesky
 This project will produce an embedded device with the capability of serving as a way to recieve immediate, on the fly audio descriptions of the visual environment around the user. It will be able to take photographs on random intervals or when specified by the user. The images and text descriptions will be stored in a database on another device and can be viewed by the user. This is intended to serve the purpose of both helping a user understand the environment around them and creating an interesting visual journal that takes minimal effort but can provide interesting points of reflection.
 
+
+# Temporary organizer for Writeup
+## Project overall 
+- Small device with a camera 
+- Takes photographs of the surroundings at a regular interval or at the push of a button 
+- Creates a text and audio description of the image 
+- Displays the text and audio descriptions of the images taken as a sort of visual journal 
+- Reads the audio description back to the user upon initially taking the picture 
+
+## Technical Description 
+- Uses Raspberry Pi Zero W2 as main base https://www.digikey.com/en/product-highlight/r/raspberry-pi/raspberry-pi-zero-2-w 
+- Uses 120 degree focal angle spy camera from AdaFruit for Pi Zero https://www.adafruit.com/product/5389#tutorials 
+- Uses PiCamZero library 
+- Uses simple breadboard, breadboard wires, and button https://www.dfrobot.com/product-612.html?srsltid=AfmBOophQH9a1cujUlpLu03gy4gGwWfXAYPXA6-2G1XCidsZMNfgALdxC2Q 
+- Uses RPI.GPIO to handle button presses 
+- Code written in Python 
+- HTML template used for web server layout 
+- Uses GPT 4o mini model to generate image descriptions and text to speech 
+- Uses MPG123 to play audio over bluetooth on Raspberry Pi 
+- Uses Flask to host webserver 
+- Time interval is supplied as command line argument
+  
+## Problems faced 
+- Choosing hardware: Originally wanted to use Arduino board but generating audio and sending it to and Arduino chip is not possible, had to switch to pi Zero, Proceeded to order the wrong peripherals including micro hdmi instead of mini hdmi, trial and error fixed this issue, in the future coming to a full understanding of what is necessary before ordering might be wise. 
+- Attempting to code on laptop and send to raspberry pi, wanted to use email but pi isn’t powerful enough to use internet, had to learn FileZilla to use FTP and transfer files directly 
+- Trying to come up with a naming system for files (since three have to have the same name) that works even after multiple boots of the program to categorize photos, descriptions, and audio. Used time.time() to get the current time which is always changing 
+- Needed to find a way to display photos/text/audio on external device for viewing. Was recommended AWS Buckets by a recruiter. The service immediately went down so I searched for another way. Found out about flask and can run the webserver locally 
+
+
 ## Overall functionality Requirements:
 1. User will be able to turn the device on and off easily
 2. Device will capture photographs on a set interval
