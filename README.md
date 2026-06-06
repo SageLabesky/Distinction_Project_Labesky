@@ -2,7 +2,6 @@
 This project will produce an embedded device with the capability of serving as a way to recieve immediate, on the fly audio descriptions of the visual environment around the user. It will be able to take photographs on random intervals or when specified by the user. The images and text descriptions will be stored in a database on another device and can be viewed by the user. This is intended to serve the purpose of both helping a user understand the environment around them and creating an interesting visual journal that takes minimal effort but can provide interesting points of reflection.
 
 
-# Temporary organizer for Writeup
 ## Project overall 
 - Small device with a camera 
 - Takes photographs of the surroundings at a regular interval or at the push of a button 
